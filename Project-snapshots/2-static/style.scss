@@ -1,0 +1,65 @@
+$bg-black: #000000;
+$yellow: #FFCA00;
+
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+body {
+    background: url(images/rabbit_bg.png);
+    background-size: cover;
+    font: 36px/1.2 'Open Sans', sans-serif;
+}
+#app {
+    position: relative;
+    &:after {
+        display: block;
+        content: '';
+        position: absolute;
+        border-left: 10px solid $yellow;
+        left: 1.528em;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 0.278em;
+        height: 60%;
+    }
+}
+.ui-slide-in {
+    width: 720px;
+    height: 126px;
+    background-color: rgba($bg-black, .6);
+    box-shadow: 0 .2em 1em rgba($bg-black, .3);
+    color: #fff;
+    padding: 20px 20px 20px 65px;
+    .text-wrapper {
+        text-transform: uppercase;
+        padding-left: 0.556em;
+        overflow: hidden;
+    }
+}
+.line {
+    span {
+        display: inline-block;
+        height: 43.2px;
+    }
+}
+.yellow {
+    color: $yellow;
+}
+.black {
+    font-weight: 800;
+}
+.thin {
+    font-weight: 300;
+}
+
+
+
+

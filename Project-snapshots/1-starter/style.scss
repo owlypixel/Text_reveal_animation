@@ -1,0 +1,21 @@
+$bg-black: #000000;
+$yellow: #FFCA00;
+
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+body {
+    background: url(images/rabbit_bg.png);
+    background-size: cover;
+    font: 36px/1.2 'Open Sans', sans-serif;
+}
+
+
